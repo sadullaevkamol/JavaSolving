@@ -21,25 +21,31 @@ var plus = +prompt('12 + 3 = ?')
 
 alert(plus)
 
-console.log('12 + 3 = 15 ' + ' Your answer is ' + plus);
+console.log('12 + 3 = ' + (12 + 3) + ' Your answer is ' + plus);
 
 var minus = +prompt('12 - 3 = ?')
 
 alert(minus)
 
-console.log('12 - 3 = 9 ' + ' Your answer is ' + minus);
+console.log('12 - 3 = ' + (12 - 3) + ' Your answer is ' + minus);
 
 var multiply = +prompt('12 * 3 = ?')
 
 alert(multiply)
 
-console.log('12 * 3 = 36' + ' Your answer is ' + multiply);
+console.log('12 * 3 = ' + (12 * 3) + ' Your answer is ' + multiply);
 
 var devide = +prompt('12 / 3 = ?')
 
 alert(devide)
 
-console.log('12 / 3 = 4' +  ' Your answer is ' + devide);
+console.log('12 / 3 = ' + (12 / 3) +  ' Your answer is ' + devide);
+
+var percent = +prompt('12 / 5 = ?')
+
+alert(percent)
+
+console.log('12 % 5 = ' + (12 % 5) + ' Your answer is ' + percent);
 
 // check the results
 
